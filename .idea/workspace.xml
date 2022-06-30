@@ -4,14 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e787ffd-4e31-4d4a-b27e-42672f7175a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="7e787ffd-4e31-4d4a-b27e-42672f7175a5" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/CustomWebElementFieldDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/AbstractElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/CheckBoxFilterItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/ImageButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/TextBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/decorator/custom/webelements/TextInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/facades/AbstractFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/facades/SmokeTestFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/pages/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/pages/AuthPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/steps/SmokeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/utils/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/utils/ValueWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/utils/WebDriverSingletone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/smoke.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tyaa/demo/testing/selenium/junit5/cucumber/maven/test/runner/RunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform_.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +42,25 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/programs/apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -36,9 +74,49 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ofixm/IdeaProjects/demo/app/webui/demo-java-junit5-cucumber-selenium-maven/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ofixm\IdeaProjects\demo\app\webui\demo-java-junit5-cucumber-selenium-maven\src\main\resources" />
+      <recent name="C:\Users\ofixm\IdeaProjects\demo\app\webui\demo-java-junit5-cucumber-selenium-maven\src\main\java\org\tyaa\demo\testing\selenium\junit5\cucumber\maven\utils" />
+      <recent name="C:\Users\ofixm\IdeaProjects\demo\app\webui\demo-java-junit5-cucumber-selenium-maven\src\main\java\org\tyaa\demo\testing\selenium\junit5\cucumber\maven\decorator\custom\webelements" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tyaa.demo.testing.selenium.junit5.cucumber.maven.pages" />
+      <recent name="org.tyaa.demo.testing.selenium.junit5.cucumber.maven.test.runner" />
+      <recent name="org.tyaa.demo.testing.selenium.junit5.cucumber.maven.decorator" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-java-junit5-cucumber-selenium-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tyaa.demo.testing.selenium.junit5.cucumber.maven.test.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tyaa.demo.testing.selenium.junit5.cucumber.maven.test.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.tyaa.demo.testing.selenium.junit5.cucumber.maven.test.runner.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunnerTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656499403893</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1656499488694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656499488694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +146,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
