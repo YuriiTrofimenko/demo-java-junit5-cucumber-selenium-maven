@@ -20,7 +20,8 @@
         <slf4j.version>2.17.2</slf4j.version>
         <allure-cucumber7-jvm.version>2.18.1</allure-cucumber7-jvm.version>
         <aspectj.version>1.9.9.1</aspectj.version>
-        <allure-maven.version>2.11.2</allure-maven.version>
+        <allure-maven.version>2.10.0</allure-maven.version>
+        <allure-junit5.version>2.18.1</allure-junit5.version>
     </properties>
 
     <dependencies>
@@ -45,7 +46,6 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit-platform-engine</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -66,6 +66,11 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-cucumber7-jvm</artifactId>
             <version>${allure-cucumber7-jvm.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit5</artifactId>
+            <version>${allure-junit5.version}</version>
         </dependency>
     </dependencies>
 
@@ -108,6 +113,7 @@
                     </argLine>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <allure.reports.directory>${project.build.directory}/allure-reports/</allure.reports.directory>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
