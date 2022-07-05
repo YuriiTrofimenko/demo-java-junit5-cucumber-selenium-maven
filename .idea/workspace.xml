@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e787ffd-4e31-4d4a-b27e-42672f7175a5" name="Changes" comment="fix generate allure results">
+    <list default="true" id="7e787ffd-4e31-4d4a-b27e-42672f7175a5" name="Changes" comment="add README.md">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ofixm/IdeaProjects/demo/app/webui/demo-java-junit5-cucumber-selenium-maven/src/main/resources",
+    "last_opened_file_path": "C:/Users/Test/IdeaProjects/demo/test/web/demo-java-junit5-cucumber-selenium-maven",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -61,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Test\IdeaProjects\demo\test\web\demo-java-junit5-cucumber-selenium-maven" />
       <recent name="C:\Users\ofixm\IdeaProjects\demo\app\webui\demo-java-junit5-cucumber-selenium-maven\src\main\resources" />
       <recent name="C:\Users\ofixm\IdeaProjects\demo\app\webui\demo-java-junit5-cucumber-selenium-maven\src\main\java\org\tyaa\demo\testing\selenium\junit5\cucumber\maven\utils" />
       <recent name="C:\Users\ofixm\IdeaProjects\demo\app\webui\demo-java-junit5-cucumber-selenium-maven\src\main\java\org\tyaa\demo\testing\selenium\junit5\cucumber\maven\decorator\custom\webelements" />
@@ -141,6 +140,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="demo cucumber smoke test" />
     <MESSAGE value="fix generate allure results" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix generate allure results" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
 </project>
